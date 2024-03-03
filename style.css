@@ -1,0 +1,411 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --header:90px;
+}
+
+body{
+  background-color: #f2f2f2;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.contenedor{
+  max-width: 100%;
+  margin: 0 auto;
+  color: #f2f2f2;
+}
+
+.orange_container{
+  background-color: rgb(255, 102, 0);
+  background-repeat: no-repeat;
+}
+
+.black_container{
+  background-color: rgb(47, 47, 47);
+}
+
+
+
+.header__menu{
+  display: flex;
+  background-color: rgb(47, 47, 47);
+  height: var(--header);
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+
+.logo{
+  align-items: start;
+  padding-right: 5rem;
+  color: #f2f2f2;
+}
+
+.nav__list{
+  display: flex;  
+  align-items:center;
+  gap: 4rem;
+  list-style: none;
+  font-weight: lighter;
+
+}
+.nav__item{
+  padding: 24px;
+}
+
+.nav__link{
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.nav__boton{
+    background: transparent;
+    border: none;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+
+
+
+.contenedor_inicio{
+    display: flex;
+    height: calc(100vh - var(--header));
+    background-image: url(inicio.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    flex-direction: column;
+    justify-content:  center;
+    text-align: left;
+
+}
+
+
+.inicio_texto{
+    margin-top: 180px;
+    margin-left: 80px;
+    
+}
+
+.texto_inicio{
+  font-size: 35px;
+  max-width: 50%;
+  font-weight: lighter;
+}
+
+.texto_titulo{
+  font-size: 100px;
+}
+
+.botondeinicio{
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(255, 102, 0);
+  font-size: 40px;
+  padding: 10px 90px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+.card__container__orange__1{
+    background-image: url(fondosection2.png);
+    background-position: initial;
+    background-size: contain;
+
+}
+
+.black_container_1{
+  background-image: url(black__1__1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.black_container_2{
+  background-image: url(black__1__2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.fondonaranja2{
+  background-image: url(fondonaranja2.png);
+  background-position:  right;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+}
+
+.fondonaranja3{
+  background-image: url(fondonaranja3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.fondofinal{
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cards_text{
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+
+
+.card__title{
+  font-weight: 700;
+}
+
+.card__text{
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.cards{
+  display: flex;
+  gap: 6rem;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  justify-content: center;
+  }
+
+.card{
+  display: flex;
+  height: 470px;
+  width:344.44px;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  gap: 1rem;
+}
+
+.black{
+    background-color: rgb(47, 47, 47);
+
+}
+
+.orange{
+  background-color: rgb(255, 102, 0);
+  border-radius: 8px;
+}
+
+.card_img{
+  height: 300px;
+  margin-top: 0;
+}
+
+
+.card_icon{
+  display: flex;
+  width:344.44px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonn{
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(47, 47, 47);
+  padding: 10px 90px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.img_partida{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0%;
+  padding: 0%;
+}
+
+
+.imagen_izq{
+  gap: 0px;
+  margin-bottom: -5px;
+}
+.imagen_der{
+  margin-bottom: -5px;
+
+}
+
+.izq_text{
+  font-weight: lighter;
+}
+
+.imgizq{
+  height: auto;
+  width: 772px;
+}
+
+.imgder{
+  height: auto;
+  width: 772px;
+
+}
+
+
+.texto_izq{
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.izq_tit{
+  font-size: 70px;
+}
+
+.izq_text{
+  font-weight: lighter;
+    font-size: 30px;
+
+}
+
+
+.botonn_izq{
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(47, 47, 47);
+  padding: 8px 70px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+
+.stats_container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4rem;
+    padding: 10%;
+}
+
+
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20rem;
+}
+
+
+.stats_tit{
+ font-size: 70px;
+}
+
+.stats_text{
+   font-size: 50px;
+   font-weight: lighter;
+
+}
+
+
+.pose_exotic{
+  display: flex;
+  height: calc(100vh - var(--header));
+  background-image: url(ultimobanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 50px;
+}
+
+.suscribete{
+  display: flex;
+  padding: 10%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+
+}
+
+
+
+.sus_form{
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+}
+
+.sus_input{
+  width: 600px;
+  height: 50px;
+  text-align: left;
+
+}
+
+.sus_boton{
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(47, 47, 47);
+  padding: 8px 70px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.footer_container{
+  display: flex;
+  background-color: rgb(47, 47, 47);
+  color: #f2f2f2;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+  padding: 3rem;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.iconitos{
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+  padding-left: 1px;
+}
